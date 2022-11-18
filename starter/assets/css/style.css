@@ -41,6 +41,7 @@ body {
     margin-left: 25px;
 }
 
+/* link formatting */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -50,6 +51,7 @@ p {
     font-size: 20px;
 }
 
+/* top image formatting */
 .hero {
     height: 800px;
     width: 100%;

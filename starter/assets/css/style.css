@@ -58,10 +58,14 @@ p {
   font-size: 20px;
 }
 
-/* l e f t   c o l u m n   f o r m a t t i n g
-
-/* combining classes into one group to make code more efficient */
-.search-engine-optimization, .online-reputation-management, .social-media-marketing { /* combining classes into one group to make code more efficient */
+/* l e f t   c o l u m n   f o r m a t t i n g */
+.left-col {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+  /* blue boxes created for each div */
+}
+.left-col div {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -69,23 +73,23 @@ p {
   background-color: #0072bb;
   color: #ffffff;
 }
-
-.float-left {
+.left-col div img {
+  max-height: 200px;
+}
+.left-col div h2 {
+  margin-bottom: 20px;
+  font-size: 42px;
+}
+.left-col div .float-left {
   float: left;
   margin-right: 25px;
 }
-
-.float-right {
+.left-col div .float-right {
   float: right;
   margin-left: 25px;
 }
 
-.left-col-content {
-  width: 75%;
-  display: inline-block;
-  margin-left: 20px;
-}
-
+/* R I G H T   C O L U M N    F O R M A T I N G */
 .right-col {
   margin-right: 20px;
   padding: 20px;
@@ -98,6 +102,7 @@ p {
   /* defining lead, brand and cost formatting  */
 }
 .right-col .lead, .right-col .brand, .right-col .cost {
+  /* ^ combining classes into one group to make code more efficient */
   margin-bottom: 32px;
   color: #ffffff;
   /* defining title formatting */
@@ -114,22 +119,7 @@ p {
   max-width: 150px;
 }
 
-/* combining classes into one group to make code more efficient */
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
-  max-height: 200px;
-}
-
-/* combining classes into one group to make code more efficient */
-.search-engine-optimization h2, .social-media-marketing h2 {
-  margin-bottom: 20px;
-  font-size: 42px;
-}
-
-.online-reputation-management h2 {
-  margin-bottom: 20px;
-  font-size: 42px;
-}
-
+/* footer */
 .footer {
   padding: 30px;
   clear: both;

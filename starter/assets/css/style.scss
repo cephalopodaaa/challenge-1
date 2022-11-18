@@ -50,11 +50,14 @@ body {
 
 
 /*hero image*/
-img {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    object-fit: cover;   /* stops image stretching */
+
+.hero {
+    img {
+        height: 800px;
+        width: 100%;
+        margin-bottom: 25px;
+        object-fit: cover;   /* stops image stretching */
+        }
     }
 
 

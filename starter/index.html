@@ -8,6 +8,7 @@
 </head>
 
 <body>
+    <!-- header -->
     <div class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
         <div>
@@ -24,8 +25,18 @@
             </ul>
         </div>
     </div>
-    <img src="./assets/images/digital-marketing-meeting.jpg" class="hero" />    <!-- Importing image correctly -->
-    <div class="content">
+    
+    <!-- Hero image-->
+    <div class="hero">
+        <img src="./assets/images/digital-marketing-meeting.jpg" />    <!-- Importing image correctly -->
+    </div>
+
+    <!--
+        left column content
+        these classes and ID's e.g. search-engine-optimization or online-reputation-management could be delete as they are no longer referenced in the style sheet. However, I have left in incase future edits require for these boxes to be different
+
+    -->
+    <div class="left-col">
         <div class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="notebook on a desk with stationary and laptop"/>
             <h2>Search Engine<br> Optimization</h2> <!-- br tag makes text go to new line -->
@@ -35,7 +46,7 @@
                 your visibility and find the right customers for your business.
             </p>
         </div>
-        <div id="online-reputation-management" class="online-reputation-management">
+        <div class="online-reputation-management">
             <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="laptop diplaying 'reputation' with graph" />
             <h2>Online Reputation Management</h2>
             <p>
@@ -44,7 +55,7 @@
                 you the control over what potential customers see when they search for your business.
             </p>
         </div>
-        <div id="social-media-marketing" class="social-media-marketing">
+        <div class="social-media-marketing">
             <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="social media symbols and terminology on a desk" />
             <h2>Social Media Marketing</h2>
             <p>
@@ -59,7 +70,7 @@
 
 
     <!-- Right Column Text and Images-->
-    <div class="benefits">
+    <div class="right-col">
         <!--
          - changed class names to remove 'benefit' from their name.
          - SCSS has been formatted so these styles only apply in the specified way from within the 'benefits' calss div

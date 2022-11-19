@@ -8,68 +8,105 @@ body {
     background-color: #d9dcd6;
 }
 
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
     h1 {
-    display: inline-block;
-    font-size: 48px;
+        display: inline-block;
+        font-size: 48px;
     }
     h1 .seo {
-    color: #d9dcd6;
+        color: #d9dcd6;
     }
+
+    /* nav bar */
     div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-    div ul {
-    list-style-type: none;
-}
-    div ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
+        padding-top: 15px;
+        margin-right: 20px;
+        float: right;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        /* list of links */
+        ul {
+            list-style-type: none;
+        }
+        ul li {
+            display: inline-block;
+            margin-left: 25px;
+            /*nav menu links*/
+            a {
+                color: #ffffff;
+                text-decoration: none;
+            }
+        }
+        /* hero image at top */
+
+    }
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
 
+
+/*hero image*/
+
+.hero {
+    img {
+        height: 800px;
+        width: 100%;
+        margin-bottom: 25px;
+        object-fit: cover;   /* stops image stretching */
+        }
+    }
+
+
+
+
+/*global links and paragraphs*/
 p {
     font-size: 20px;
 }
 
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    object-fit: cover;   /* stops image stretching */
 
-}
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
+/* l e f t   c o l u m n   f o r m a t t i n g */
+.left-col {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+
+    /* blue boxes created for each div */
+    div {
+        margin-bottom: 20px;
+        padding: 50px;
+        height: 300px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #0072bb;
+        color: #ffffff;
+        img {
+            max-height: 200px;
+        }
+        h2 {
+            margin-bottom: 20px;
+            font-size:42px;
+        }
+        .float-left {
+            float: left;
+            margin-right: 25px;
+        }
+        
+        .float-right {
+            float: right;
+            margin-left: 25px;
+        }
+    }
 }
 
-.benefits {
+
+/* R I G H T   C O L U M N    F O R M A T I N G */
+.right-col {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -80,6 +117,7 @@ p {
     background-color: #2589bd;
     /* defining lead, brand and cost formatting  */
     .lead, .brand, .cost {
+        /* ^ combining classes into one group to make code more efficient */
         margin-bottom: 32px;
         color: #ffffff;
         /* defining title formatting */
@@ -97,41 +135,16 @@ p {
     }
 }
 
-/* combining classes into one group to make code more efficient */
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
 
-/* combining classes into one group to make code more efficient */
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img  {
-    max-height: 200px;
-}
-
-/* combining classes into one group to make code more efficient */
-.search-engine-optimization h2, .social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size:42px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 42px;
-}
-
-
+/* footer */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    h2 {
+        font-size: 20px;
+    }
 }
 
-.footer h2 {
-    font-size: 20px;
-}

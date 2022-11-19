@@ -13,6 +13,7 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   background-color: #2a607c;
   color: #ffffff;
+  /* nav bar */
 }
 .header h1 {
   display: inline-block;
@@ -27,6 +28,8 @@ body {
   float: right;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
+  /* list of links */
+  /* hero image at top */
 }
 .header div ul {
   list-style-type: none;
@@ -34,13 +37,17 @@ body {
 .header div ul li {
   display: inline-block;
   margin-left: 25px;
+  /*nav menu links*/
 }
+
+
 
 /* link formatting */
 a {
   color: #ffffff;
   text-decoration: none;
 }
+
 
 p {
   font-size: 20px;
@@ -55,23 +62,44 @@ p {
      object-fit: cover; /* stops image stretching */
 }
 
-.float-left {
+/*global links and paragraphs*/
+p {
+  font-size: 20px;
+}
+
+/* l e f t   c o l u m n   f o r m a t t i n g */
+.left-col {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+  /* blue boxes created for each div */
+}
+.left-col div {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+.left-col div img {
+  max-height: 200px;
+}
+.left-col div h2 {
+  margin-bottom: 20px;
+  font-size: 42px;
+}
+.left-col div .float-left {
   float: left;
   margin-right: 25px;
 }
-
-.float-right {
+.left-col div .float-right {
   float: right;
   margin-left: 25px;
 }
 
-.content {
-  width: 75%;
-  display: inline-block;
-  margin-left: 20px;
-}
-
-.benefits {
+/* R I G H T   C O L U M N    F O R M A T I N G */
+.right-col {
   margin-right: 20px;
   padding: 20px;
   clear: both;
@@ -82,49 +110,25 @@ p {
   background-color: #2589bd;
   /* defining lead, brand and cost formatting  */
 }
-.benefits .lead, .benefits .brand, .benefits .cost {
+.right-col .lead, .right-col .brand, .right-col .cost {
+  /* ^ combining classes into one group to make code more efficient */
   margin-bottom: 32px;
   color: #ffffff;
   /* defining title formatting */
   /*formatting images within lead, brand and cost*/
 }
-.benefits .lead h3, .benefits .brand h3, .benefits .cost h3 {
+.right-col .lead h3, .right-col .brand h3, .right-col .cost h3 {
   margin-bottom: 10px;
   text-align: center;
   font-size: 25px;
 }
-.benefits .lead img, .benefits .brand img, .benefits .cost img {
+.right-col .lead img, .right-col .brand img, .right-col .cost img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
-/* combining classes into one group to make code more efficient */
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-/* combining classes into one group to make code more efficient */
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
-  max-height: 200px;
-}
-
-/* combining classes into one group to make code more efficient */
-.search-engine-optimization h2, .social-media-marketing h2 {
-  margin-bottom: 20px;
-  font-size: 42px;
-}
-
-.online-reputation-management h2 {
-  margin-bottom: 20px;
-  font-size: 42px;
-}
-
+/* footer */
 .footer {
   padding: 30px;
   clear: both;

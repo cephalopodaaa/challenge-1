@@ -39,13 +39,22 @@ body {
   margin-left: 25px;
   /*nav menu links*/
 }
-.header div ul li a {
+
+
+
+/* link formatting */
+a {
   color: #ffffff;
   text-decoration: none;
 }
 
-/*hero image*/
-.hero img {
+
+p {
+  font-size: 20px;
+}
+
+/* top image formatting */
+.hero {
   height: 800px;
   width: 100%;
   margin-bottom: 25px;

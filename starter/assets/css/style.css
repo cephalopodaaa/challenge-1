@@ -39,22 +39,13 @@ body {
   margin-left: 25px;
   /*nav menu links*/
 }
-
-
-
-/* link formatting */
-a {
+.header div ul li a {
   color: #ffffff;
   text-decoration: none;
 }
 
-
-p {
-  font-size: 20px;
-}
-
-/* top image formatting */
-.hero {
+/*hero image*/
+.hero img {
   height: 800px;
   width: 100%;
   margin-bottom: 25px;
@@ -135,7 +126,6 @@ p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   text-align: center;
 }
-
 .footer h2 {
   font-size: 20px;
 }/*# sourceMappingURL=style.css.map */
